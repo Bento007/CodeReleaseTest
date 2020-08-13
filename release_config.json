@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/Bento007/CodeReleaseTest",
+  "release_map": {
+    "staging": {
+      "source": "main",
+      "destination": "staging",
+      "prerelease": true
+    },
+    "production": {
+      "source": "staging",
+      "destination": "prod",
+      "prerelease": false
+    }
+  }
+}
