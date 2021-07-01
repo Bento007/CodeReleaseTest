@@ -9,4 +9,4 @@ locally we bump a tag and cut a release
 If we would like to generate release notes here is my first steps solution:
 1. use conventionalcommit message :white_check_mark:
 1. setup commitizen for whichever data portal
-1. whenever we do a release to prod run cz bump --changelog . This will tag the current branch with a new version based on the commits since the last tag.
+1. whenever we do a release to prod make a branch, run cz bump --changelog . This will tag the current branch with a new version based on the commits since the last tag. Then open a PR for that branch.
