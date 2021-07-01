@@ -1,3 +1,10 @@
+## 0.1.3 (2021-07-01)
+
+### Fix
+
+- instructions
+- remove auto bump code.
+
 ## 0.1.2 (2021-07-01)
 
 ### Fix
